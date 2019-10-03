@@ -22,9 +22,50 @@ Para estruturar o conteúdo do documento é útilizada uma estruturada de Tags, 
 
 #### Adicionando estilo com CSS
 
-ESTILO
-Como colocar css
-Onde procurar mais sobre
+###### O que é?
+
+CSS Significa Cascading Style Sheets, e é utilizado para estilização do conteúdo estruturado em HTML. Dessa maneira, se você quiser alterar cor, tamanho, fonte, disposição e outras propriedades de estilo do conteúdo, você deverá fazer através do CSS.
+
+###### Como colocar
+
+Existem 3 maneiras de se adicionar CSS ao HTML, inline, internal e external.
+
+######## Inline
+
+Nesse caso o estilo é adicionado diretamente à TAG html, utilizando a propriedade style.
+
+```
+<p style="color: blue;"> Isso é um paragrafo </p>
+```
+
+######## Internal
+
+Escrevendo as definições de estilo em CSS dentro da tag style, colocada dentro do head.
+
+```
+<head>
+...
+
+  <style>
+    p {
+      color: blue;
+    }
+  </style>
+
+</head>
+```
+
+######## External
+
+Carregando um arquivo separado com as definições de estilo escritas em CSS através da tag link, que é colocada dentro do head.
+
+```
+<head>
+  ...
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+```
 
 #### Metadados
 
