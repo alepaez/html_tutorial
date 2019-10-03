@@ -69,24 +69,31 @@ Carregando um arquivo separado com as definições de estilo escritas em CSS atr
 
 #### Classes e Ids
 
-Caso você queira ter estilos diferentes para a mesma TAG, você pode adicionar uma classe a essa TAG que defina um estilo diferenciado para ela! O exemplo abaixo cria 2 parágrafos de classes diferentes e atribui diferentes cores de fundo para cada classe:
+Caso você queira ter estilos diferentes para a mesma TAG, você pode adicionar uma classe ou id a essa TAG que defina um estilo diferenciado para ela! 
 
 ###### html
 
 ```html
 <p class="alert"> Esse parágrafo é um alerta!! </p>
 <p class="success"> Esse parágrafo é um sucesso!! </p>
+<p id="special"> Esse parágrafo é especial!! </p>
 ```
 
 ###### css
+
+Para selecionar uma classe no CSS você deve usar o caracter . (ponto), e um id o caracter # (sustenido)
 
 ```css
 p.alert {
   background-color: red;
 }
 
-p.alert {
+p.success {
   background-color: green;
+}
+
+p#special {
+  background-color: blue;
 }
 ```
 
