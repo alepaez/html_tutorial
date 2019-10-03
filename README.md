@@ -10,7 +10,7 @@ Documento texto que descreve como o conteúdo do mesmo deve ser exibido. Esse no
 
 Para estruturar o conteúdo do documento é útilizada uma estruturada de Tags, exemplo:
 
-```
+```html
 <p> Isso é um paragrafo </p>
 ```
 
@@ -34,7 +34,7 @@ Existem 3 maneiras de se adicionar CSS ao HTML, inline, internal e external.
 
 Nesse caso o estilo é adicionado diretamente à TAG html, utilizando a propriedade style.
 
-```
+```html
 <p style="color: blue;"> Isso é um paragrafo </p>
 ```
 
@@ -42,7 +42,7 @@ Nesse caso o estilo é adicionado diretamente à TAG html, utilizando a propried
 
 Escrevendo as definições de estilo em CSS dentro da tag style, colocada dentro do head.
 
-```
+```html
 <head>
 ...
 
@@ -59,12 +59,35 @@ Escrevendo as definições de estilo em CSS dentro da tag style, colocada dentro
 
 Carregando um arquivo separado com as definições de estilo escritas em CSS através da tag link, que é colocada dentro do head.
 
-```
+```html
 <head>
   ...
   <link rel="stylesheet" href="style.css" />
 
 </head>
+```
+
+#### Classes e Ids
+
+Caso você queira ter estilos diferentes para a mesma TAG, você pode adicionar uma classe a essa TAG que defina um estilo diferenciado para ela! O exemplo abaixo cria 2 parágrafos de classes diferentes e atribui diferentes cores de fundo para cada classe:
+
+###### html
+
+```html
+<p class="alert"> Esse parágrafo é um alerta!! </p>
+<p class="success"> Esse parágrafo é um sucesso!! </p>
+```
+
+###### css
+
+```css
+p.alert {
+  background-color: red;
+}
+
+p.alert {
+  background-color: green;
+}
 ```
 
 ## Metadados
@@ -79,3 +102,4 @@ Referências:
 https://www.w3schools.com/html/
 https://www.w3schools.com/tags/default.asp
 https://www.theserverside.com/definition/HTML-Hypertext-Markup-Language
+https://www.w3schools.com/html/html_css.asp
