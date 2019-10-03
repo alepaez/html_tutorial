@@ -104,7 +104,8 @@ Metadado é o dado (informação) sobre o dado.
 E isso no HTML significa que são informações sobre o documento HTML,
 que dizem algo sobre o conteúdo do documento.
 
-Abaixo estão os exemplos mais utilizados de metadado no HTML:
+Os metadados devem ser colocados dentro da TAG head,
+abaixo estão os exemplos mais utilizados de metadado no HTML:
 
 ```html
 <head>
@@ -117,18 +118,29 @@ Abaixo estão os exemplos mais utilizados de metadado no HTML:
 
 #### Charset
 
-Metadado que indica a condificação dos caracteres daquele documento,
+Metadado que indica a codificação dos caracteres daquele documento,
 no nosso caso (Brasil) é recomendado que mantenha esse dado como UTF-8,
 para que nosso acentos funcionem normalmente!
 
 ```html
-<meta charset="UTF-8">
+<head>
+  <meta charset="UTF-8">
+</head>
 ```
 
 #### Description, Keyword e Author
 
-Esses metadados são utilizados pelos buscadores (google e cia)
+Esses metadados são utilizados pelos buscadores (google e cia),
+para entender de que se trata o conteúdo do HTML e indica-lo para quem o está procurando.
+Para isso definimos description (descrição), keywords (palavras-chave) e author (autor).
 
+```html
+<head>
+  <meta name="description" content="Aula de HTML">
+  <meta name="keywords" content="HTML,CSS,Gama Academy">
+  <meta name="author" content="Alexandre Paez">
+</head>
+```
 
 Referências:
 
