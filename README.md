@@ -97,6 +97,12 @@ p#special {
 }
 ```
 
+#### Mas que propriedades posso alterar?
+
+Abaixo está o site do w3scholls, onde você encontra todas as propriedades dos CSS:
+
+https://www.w3schools.com/cssref/
+
 ## Metadados
 
 Metadado é o dado (informação) sobre o dado.
