@@ -6,7 +6,7 @@ Hypertext Markup Language
 
 Documento texto que descreve como o conteúdo do mesmo deve ser exibido. Esse normalmente é lido pelos navegadores de internet (Chrome, Firefox, Safari, e outros), que exibe o conteúdo para os usuários :)
 
-DESENHO MOSTRANDO ONDE ENTRA O HTML NA INTERNET
+![HTML na internet](./html_na_internet.png)
 
 Para estruturar o conteúdo do documento é útilizada uma estruturada de Tags, exemplo:
 
