@@ -99,14 +99,43 @@ p#special {
 
 ## Metadados
 
-METADADOS
-Palavras chave
-Pra que? (SEO)
-Onde encontra mais
+Metadado é o dado (informação) sobre o dado.
+
+E isso no HTML significa que são informações sobre o documento HTML,
+que dizem algo sobre o conteúdo do documento.
+
+Abaixo estão os exemplos mais utilizados de metadado no HTML:
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="John Doe">
+</head>
+```
+
+#### Charset
+
+Metadado que indica a condificação dos caracteres daquele documento,
+no nosso caso (Brasil) é recomendado que mantenha esse dado como UTF-8,
+para que nosso acentos funcionem normalmente!
+
+```html
+<meta charset="UTF-8">
+```
+
+#### Description, Keyword e Author
+
+Esses metadados são utilizados pelos buscadores (google e cia)
 
 
 Referências:
+
 https://www.w3schools.com/html/
+
 https://www.w3schools.com/tags/default.asp
+
 https://www.theserverside.com/definition/HTML-Hypertext-Markup-Language
+
 https://www.w3schools.com/html/html_css.asp
