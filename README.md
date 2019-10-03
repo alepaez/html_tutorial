@@ -1,4 +1,4 @@
-#### O que é HTML?
+## O que é HTML?
 
 Hypertext Markup Language
 
@@ -20,17 +20,17 @@ Para estruturar o conteúdo do documento é útilizada uma estruturada de Tags, 
 [Documento Exemplo com algumas TAGS](example.html)
 
 
-#### Adicionando estilo com CSS
+## Adicionando estilo com CSS
 
-###### O que é?
+#### O que é?
 
 CSS Significa Cascading Style Sheets, e é utilizado para estilização do conteúdo estruturado em HTML. Dessa maneira, se você quiser alterar cor, tamanho, fonte, disposição e outras propriedades de estilo do conteúdo, você deverá fazer através do CSS.
 
-###### Como colocar
+#### Como colocar
 
 Existem 3 maneiras de se adicionar CSS ao HTML, inline, internal e external.
 
-######## Inline
+###### Inline
 
 Nesse caso o estilo é adicionado diretamente à TAG html, utilizando a propriedade style.
 
@@ -38,7 +38,7 @@ Nesse caso o estilo é adicionado diretamente à TAG html, utilizando a propried
 <p style="color: blue;"> Isso é um paragrafo </p>
 ```
 
-######## Internal
+###### Internal
 
 Escrevendo as definições de estilo em CSS dentro da tag style, colocada dentro do head.
 
@@ -55,7 +55,7 @@ Escrevendo as definições de estilo em CSS dentro da tag style, colocada dentro
 </head>
 ```
 
-######## External
+###### External
 
 Carregando um arquivo separado com as definições de estilo escritas em CSS através da tag link, que é colocada dentro do head.
 
@@ -67,7 +67,7 @@ Carregando um arquivo separado com as definições de estilo escritas em CSS atr
 </head>
 ```
 
-#### Metadados
+## Metadados
 
 METADADOS
 Palavras chave
