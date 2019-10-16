@@ -17,7 +17,7 @@ Para estruturar o conteúdo do documento é útilizada uma estruturada de Tags, 
 `<p>` indica que ali começa o paragrafo
 `</p>` indica que ali acaba o paragrafo
 
-[Documento Exemplo com algumas TAGS](example.html)
+[Documento Exemplo com algumas TAGS](index.html)
 
 
 ## Adicionando estilo com CSS
