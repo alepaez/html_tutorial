@@ -148,7 +148,19 @@ Para isso definimos description (descrição), keywords (palavras-chave) e autho
 </head>
 ```
 
-Referências:
+# Deploy
+
+## Netilify
+
+#### Criar um repositório git com seu index.html e outros arquivos (geralmente js e css)
+
+#### Domínio
+
+Comprar domínio em https://registro.br
+
+Configurar CNAME seguindo esses passos -> https://atendimento.tray.com.br/hc/pt-br/articles/360031045171-Como-Editar-a-entrada-CNAME-no-registro-br
+
+# Referências
 
 https://www.w3schools.com/html/
 
